@@ -1,0 +1,469 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 1349px;
+
+  /* background: #f7f7f7; */
+}
+
+.header {
+  border-bottom: 2px solid #f2f2f2;
+  margin-bottom: 27px;
+  /* background: #fff; */
+}
+
+.menu,
+.menu-li {
+  margin: 0;
+  padding: 0;
+  /*margin-right: 10px;*/
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu {
+  margin: 24px;
+}
+
+.menu-li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  position: absolute;
+  width: 190px;
+  height: 36px;
+  left: calc(50% - 190px / 2 + 7px);
+  top: 15px;
+  border-radius: 0px;
+}
+
+.container{
+  background: #F7F7F7;
+ 
+}
+.post {
+  width: auto;
+  background: url(images/IMAGE.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+}
+
+.text {
+  margin: 0;
+  padding-left: 20%;
+  padding-top: 247px;
+  width: 807px;
+  height: 77px;
+  left: calc(50% - 807px / 2 - 0.5px);
+  top: 107.45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.post button {
+  margin-top: 15px;
+  margin-left: 42%;
+  width: 200px;
+  height: 35px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.post a {
+  color: #fff;
+}
+.black-box {
+  width: 258px;
+  padding: 13px 30px;
+  background-color: #000;
+  margin-top: 200px;
+  margin-left: 25px;
+}
+/*start block 3*/
+
+.inform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 45px 58px;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inform-img {
+  margin-right: 15px;
+}
+.inform-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+/*start block 4*/
+
+.title-roboto {
+  margin: 0 0;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 56px;
+  color: #000000;
+}
+.title-itlic {
+  height: 38px;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 37px;
+  color: #000000;
+}
+.title-normal {
+  height: 28px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #000000;
+}
+.title-normal-2 {
+  height: 92px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: #525252;
+}
+.title-roboto-2 {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+.title-cordo-16 {
+  height: 28px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #54595f;
+}
+
+.title-red {
+  height: 30px;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #bc1414;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.block4 img {
+  width: 337.25px;
+}
+
+/*start block 5-9*/
+
+.block5 {
+  margin-top: 115px;
+  display: flex;
+}
+.img860 {
+  width: 860px;
+}
+.shop {
+  margin-top: 66px;
+}
+
+.block {
+  margin-top: 29px;
+  display: flex;
+}
+.bl_left {
+  margin-right: 48px;
+  margin-left: 22px;
+  margin-top: 50px;
+  width: 800px;
+  text-align: right;
+}
+.bl_right {
+  margin-right: 22px;
+  margin-left: 48px;
+  margin-top: 50px;
+  text-align: left;
+}
+.b8-r {
+  margin-top: 30px;
+}
+
+/* block 10 */
+.our {
+  margin-top: 61px;
+}
+
+.title-cordo-30 {
+  height: 39px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+.title-cordo-18 {
+  height: 34px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+
+.our-item {
+  margin: 9px;
+}
+
+.black-b {
+  background-color: #000;
+  width: 9px;
+  height: 9px;
+  margin: 3px;
+}
+.bb-margin {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.team {
+  padding;
+  margin: 140px 95px 0 95px;
+  font-family: "Cardo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #020202;
+  margin-bottom: 20px;
+}
+.united {
+  margin: 40px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.black-b10 {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  margin: 3px;
+}
+.black-b7 {
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+  margin: 3px;
+}
+
+.black-b3 {
+  width: 3px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px;
+}
+.align-center {
+  align-items: center;
+  margin: 20px;
+}
+.cordo18{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+.our{
+  position: relative;
+}
+.paula{
+  position: absolute;
+  left: 380px;
+  top: 170px;
+}
+
+.linda{
+  position: absolute;
+  left: 702px;
+  top: 170px;
+}
+.marta{
+  position: absolute;
+  left: 1100px;
+  top: 170px;
+}
+
+.block11{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.t-align{
+  text-align: center;
+}
+.cordo15{
+  font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+color: #000000;
+
+}
+.cordo24{
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+.design{
+  padding:30px;
+  padding-top: 60px;
+  width: 337.5px;
+  height: 280px;
+  background-color: #fff;
+}
+.foot{
+ padding:30px;
+ padding-top: 60px;
+  width: 337.5px;
+  height: 280px;
+}
+.made{
+  padding:30px;
+  padding-top: 60px;
+  width: 337.5px;
+  height: 280px;
+  background-color: #fff;
+}
+.wood{
+  padding:30px;
+  padding-top: 60px;
+  width: 337.5px;
+  height: 280px;
+}
+
+.cordo-20 {
+  height: 34px;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+}
+.block12{
+  margin-top: 100px;
+}
+.inter{
+  width: 1300px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+
+
+
+/* START BLOCK 13 */
+.block13{
+  background: #E9E9E9;
+}
+.block13-1{
+  margin: 0 155px 0 145px;
+  padding-top: 56;
+  display: flex;
+  justify-content: space-around;
+}
+.cordo21{
+  margin-bottom: 45px;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.miss{
+  margin-left: 150px;
+}
+.suscribe{
+  padding: 0 41px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  margin: 17px 0 30px 0;
+}
+.miss img{
+  margin-bottom: 17px;
+}
+
+.block13-2{
+  margin: 0 170px 0 170px;
+padding: 25px 20px 70px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.visa{
+  align-self: flex-start;
+}

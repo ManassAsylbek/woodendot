@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   position: relative;
-  width: 1349px;
+  width: 100vw;
 
   /* background: #f7f7f7; */
 }
